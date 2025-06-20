@@ -162,6 +162,11 @@ elif menu == "New Clustering":
                 else:
                     sil_score = None  # kalau cluster cuma 1 / semuanya noise
 
+                if sil_score is not None:
+                    st.write(f"Silhouette Score Akhir: {sil_score:.4f}")
+                else:
+                    st.write("Silhouette Score tidak dapat dihitung (cluster tunggal atau noise).")   
+
                 st.subheader("📊 Hasil Klaster:")
                 st.dataframe(df[['isi', 'cluster_opt']])
 
