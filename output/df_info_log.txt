@@ -1,0 +1,13 @@
+<class 'pandas.core.frame.DataFrame'>
+Index: 17 entries, 0 to 18
+Data columns (total 6 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   judul      17 non-null     object
+ 1   isi        17 non-null     object
+ 2   link       17 non-null     object
+ 3   isi_token  17 non-null     object
+ 4   isi_stem   17 non-null     object
+ 5   isi_final  17 non-null     object
+dtypes: object(6)
+memory usage: 952.0+ bytes
